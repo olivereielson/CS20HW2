@@ -1,0 +1,128 @@
+button {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    float: left;
+
+}
+
+button p {
+    font-size: large;
+    color: rgb(66, 89, 138);
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+
+button:hover {
+    border-radius: 20px;
+    background-color: rgba(240, 240, 240, 0.99);
+
+}
+
+.topnav {
+    display: block;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    child-align: left;
+    vertical-align: center;
+}
+
+.buttons {
+
+    float: right;
+
+    background-color: rgb(66, 89, 138);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 20%;
+
+    font-weight: bold;
+
+}
+
+.topnav a p{
+
+    padding: 0;
+
+}
+
+.topnav a[id=title] {
+    color: black;
+    font-size: x-large;
+    float: left;
+}
+.topnav a[id=title]:hover{
+    background-color: white;
+}
+
+.topnav a{
+    margin-top: 3%;
+    float: right;
+    vertical-align: center;
+}
+
+a[id=book]{
+    float: right;
+    background-color: rgb(66, 89, 138);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+
+}
+h2{
+    margin: 0;
+}
+.topnav a[id=book] p{
+    color: white;
+}
+.topnav a p{
+    margin:0;
+    color: black;
+
+}
+
+
+.topnav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 5px;
+    alignment: right;
+    font-size: large;
+}
+
+.topnav a:hover {
+    background-color: rgba(66, 89, 138, 0.4);
+    color: black;
+    border-radius: 20px;
+    fill-opacity: 1;
+    solid-opacity: 1;
+}
+
+
+.topnav c:hover {
+    background-color: rgb(40, 70, 130);
+    color: white;
+    border-radius: 20px;
+}
+
+.topnav table {
+
+    padding-top: 30px;
+    overflow: hidden;
+    border: none;
+    text-align: left;
+    alignment: center;
+    font-size: xx-large;
+    vertical-align: top;
+
+
+}
