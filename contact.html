@@ -11,8 +11,28 @@
     <title>test</title>
     <style>
 
-        body {
+
+        @media screen and (max-width:767px) {
+            table tr > *{
+                display: block;
+            }
+
+
+            form {
+
+            }
+
+            table tr {
+                background-color: greenyellow;
+                display: table-cell;
+
+            }
+
+            body {
+                background-color: orangered;
+            }
         }
+
 
         .square {
             background-color: rgb(66, 89, 138);
@@ -43,8 +63,8 @@
             border-radius: 40px;
             margin-top: 5%;
             margin-right: 5%;
-            width: 80%;
             margin-bottom: 5%;
+            width: 450px;
             padding: 30px;
             text-align: left;
             vertical-align: top;
@@ -94,7 +114,7 @@
 
         }
 
-        table, th, td {
+        table {
             overflow: hidden;
             border: none;
             text-align: center;
@@ -103,6 +123,8 @@
             vertical-align: top;
 
         }
+
+
 
         h3 {
             color: white;
@@ -173,9 +195,9 @@
 
 <span class="square" style="overflow-x:auto">
 
-    <table style="width:100%">
+    <table>
         <tr>
-            <th style="width: 50%">
+            <th>
                 <span class="leftText">
                     <h3>
                         Get a Quote
@@ -205,13 +227,13 @@
 
                     </span>
 
-                                    <img src="59904-modified.png" width=100%>
+                                    <img src="59904-modified.png" width=400px>
 
 
                 </span>
             </th>
 
-            <th style="width: 50%">
+            <th >
 
                 <span>
                                     <form>
